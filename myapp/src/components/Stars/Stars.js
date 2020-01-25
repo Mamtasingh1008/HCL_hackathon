@@ -7,7 +7,7 @@ class Stars extends Component {
 
 
       handleClick=()=>{
-          console.log("my booking clicked")
+          alert("star button clicked")
       }
 
 render() {
