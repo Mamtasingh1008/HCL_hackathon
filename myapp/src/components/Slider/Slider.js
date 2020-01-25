@@ -14,7 +14,7 @@ class Slider extends Component {
     }
 
     render() {
-        const { range, updateRange } = this.props;
+        const {  updateRange } = this.props;
 
         return (
             <React.Fragment>
