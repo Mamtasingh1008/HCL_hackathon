@@ -7,7 +7,7 @@ class Contactus extends Component
     {
         super(props);
         this.state = {
-            firstname: 'shubha',
+            firstname: '',
             lastname: '',
             telnum: '',
             email: '',
@@ -17,7 +17,7 @@ class Contactus extends Component
         };
         this.handleInputChange = this.handleInputChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
-        this.getthevalue=this.getthevalue.bind(this);
+        
     }
     handleInputChange(event) {
         const target = event.target;
@@ -35,17 +35,13 @@ class Contactus extends Component
         event.preventDefault();
     }
 
-    getthevalue(event)
-    {
-        alert(JSON.stringify(this.state))
-        event.preventDefault();
-    }
+    
     render()
     {
 return(
     <div className="row row-content">
     <div className="col-12">
-       <h3>Send us your Feedback</h3>
+       <h3>Contact US</h3>
     </div>
      <div className="col-12 col-md-9">
          <Form onSubmit={this.handleSubmit}>
