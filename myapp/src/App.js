@@ -9,8 +9,7 @@ import ViewDetails from './components/viewDetails';
 import {HotelData} from './Shared/Hoteldata.js'
 import HomePage from './components/HotelDetails/HomePageComponent.jsx';
 import Contactus from './components/Contactus.jsx';
-import Header from './components/Header.jsx';
-import {Router,Switch,rou} from 'react-router-dom';
+
 
 
 

@@ -1,6 +1,6 @@
 import React ,{Component} from 'react';
-import {Card,CardBody,CardImg,CardImgOverlay,CardTitle,CardText,CardColumns,CardLink} from 'reactstrap';
-import {Form,FormGroup,Label,Button,Input,Col,Breadcrumb,BreadcrumbItem} from 'reactstrap'
+import {Card,CardBody,CardImg,CardTitle,CardText,CardLink} from 'reactstrap';
+import {Input} from 'reactstrap'
 
 class HomePage extends Component
 {
