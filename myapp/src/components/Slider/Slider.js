@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import ReactBootstrapSlider from 'react-bootstrap-slider';
+
 
 
 class Slider extends Component {
@@ -14,7 +14,7 @@ class Slider extends Component {
     }
 
     render() {
-        const { range, updateRange } = this.props;
+        const { updateRange } = this.props;
 
         return (
             <React.Fragment>
