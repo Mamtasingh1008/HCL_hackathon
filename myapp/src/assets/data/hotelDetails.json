@@ -1,0 +1,16 @@
+
+    {
+        "Id":"1001",
+        "hotelName":"Akshaya Hotel",
+        "street":"Hosur road",
+        "city":"Banglore",
+        "pincode":"560100",
+        "langitude":"59.955413",
+        "lattitude":"30.337844",
+        "phoneNo":"9988345262",
+        "roomImage1":"https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "roomImage2":"https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "roomImage3":"https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "roomImage4":"https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  
+    }
+
