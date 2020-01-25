@@ -62,11 +62,16 @@ class BookNow extends Component {
   render() {
 
     var price = (1000 * this.state.AdultCount) + (500 * this.state.ChildCount)
+    const divStyle = {
+      
+      
+         margin: "auto"
+    };
 
 
     return (
-      <React.Fragment>
-        <h1> User Preferance Functionality added</h1>
+      <React.Fragment style={divStyle}>
+        <h1> User Preference Functionality added</h1>
         <h3> Please choose: </h3>
         <p> Rooms: </p>
         <Button variant="danger" onClick={this.Room_deacrease}>-</Button>
