@@ -27,7 +27,7 @@ class Slider extends Component {
                 />
 
 
-                <span id="output">{updateRange}</span>
+                <span id="output">"100000"</span>
 
 
             </React.Fragment>
