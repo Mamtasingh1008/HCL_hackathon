@@ -5,6 +5,7 @@ import Slider from "./components/Slider/Slider";
 import Search from "./components/Search/Search";
 import Stars from "./components/Stars/Stars";
 import BookNow from "./components/BookNow/BookNow"
+import ViewDetails from './components/viewDetails'; 
 
 
 class App extends React.Component {
@@ -36,6 +37,8 @@ class App extends React.Component {
       <Slider range="1000" updateRange={this.updateRange}/>
       <Stars/>
       <BookNow/>
+      <br></br>
+        <ViewDetails />
         
         </React.Fragment>
       
