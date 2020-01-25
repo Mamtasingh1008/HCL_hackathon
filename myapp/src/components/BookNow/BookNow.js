@@ -65,7 +65,8 @@ class BookNow extends Component {
     const divStyle = {
       
       
-         margin: "auto"
+         margin: "auto",
+         offSet: "2",
     };
 
 
